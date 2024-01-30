@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Imagem em vários tamanhos</p>
+    <picture>
+        <source media="(max-width: 350px)" srcset="./imagens/474721-Linux-Kali_Linux_NetHunter-Photoshop-dragon-320.jpg" type="image/jpg">
+        <source media="(max-width: 780px)" srcset="./imagens/474721-Linux-Kali_Linux_NetHunter-Photoshop-dragon-480.jpg" type="image/jpeg">
+        <source media="(max-width: 1250px)" srcset="./imagens/474721-Linux-Kali_Linux_NetHunter-Photoshop-dragon-769.jpg" type="image/jpeg">
+        <img src="imagens/474721-Linux-Kali_Linux_NetHunter-Photoshop-dragon-1200.jpg" alt="wallpaper-kali_Linux">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Reproduzindo um áudio em HTML5.</p>
+    <audio preload="none" controls>
+        <source src="media/guanacast-33.mp3" type="audio/mpeg" >
+    </audio>
+    <p>Se seu navegador não reproduzir o áudio, faça <a href="media/guanacast-33.mp3" download="./media/guanacast-33.mp3" type="audio/mpeg">aqui</a> seu download.</p>
+</body>
+</html>

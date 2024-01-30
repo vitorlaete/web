@@ -1,0 +1,30 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#leftTop{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(../images/wallpaper003.jpg);
+}
+
+#rightBottom{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(../images/wallpaper003.jpg);
+    background-position: right bottom;
+}
+
+#centerTop{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(../images/wallpaper003.jpg);
+    background-position: center top;
+}
+
+#centerCenter{
+    border: 1px solid black;
+    height: 400px;
+    background-image: url(../images/wallpaper003.jpg);
+    background-position: center center;
+}

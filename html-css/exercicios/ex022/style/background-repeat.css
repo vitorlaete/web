@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 18px;
+}
+
+#repeat{
+    background-image: url(../images/pattern001.png);
+    border: 1px solid black;
+    height: 400px;
+    width: 90%;
+}
+
+#repeatX{
+    background-color: lightgrey;
+    background-image: url(../images/pattern002.png);
+    background-repeat: repeat-x;
+    border: 1px solid black;
+    height: 400px;
+    width: 90%;
+}
+
+#repeatY{
+    background-color: lightgrey;
+    background-image: url(../images/pattern003.png);
+    background-repeat: repeat-y;
+    border: 1px solid black;
+    height: 400px;
+    width: 90%;
+}
+
+#noRepeat{
+    background-color: lightgrey;
+    background-image: url(../images/pattern004.png);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    height: 400px;
+    width: 90%;
+}

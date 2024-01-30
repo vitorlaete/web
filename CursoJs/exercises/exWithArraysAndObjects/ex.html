@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário básico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Preencha seus dados</h2>
+    <div id="divWithBasicData">
+        <label for="name">Nome: <input type="text" name="name" id="name"></label><br>
+        <label for="lastName">Sobrenome: <input type="text" name="lastName" id="lastName"></label><br>
+        <label for="weight">Peso: <input type="number" name="weight" id="weight"></label><br>
+        <label for="height">Altura: <input type="number" name="height" id="height"></label><br>
+        <input type="button" value="Enviar" id="send" onclick="main()">
+    </div>
+    <div id="confirm">
+
+    </div>
+</body>
+<script src="./ex.js"></script>
+</html>

@@ -1,0 +1,105 @@
+:root{
+    --primary-color: #808080;
+    --background-color-div: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--primary-color);
+}
+
+.main{
+    background-color: var(--background-color-div);
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+    max-width: 600px;
+}
+
+.values{
+    line-height: 2.5em;
+}
+
+.values table td{
+    padding-left: 100px;
+}
+
+h1{
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+.data input{
+    font-size: 1.3em;
+    margin: 5px 0 5px 0;
+    display: block;
+    width: 100%;
+}
+
+/*Comandos para desabilitar os botões de cima e baixo do input:number*/
+/*Precisa ser combinado com o comando abaixo para ter o efeito desejado.*/
+input.numberToText::-webkit-outer-spin-button, input.numberToText::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0; 
+}
+
+/*Comando para deixar o input:number com aparência de um input:text*/
+input[type=number].numberToText{
+    -moz-appearance: textfield;
+}
+
+.data input:focus{
+    outline-color: var(--primary-color);
+}
+
+#btnCalc{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    background-color: lightgrey;
+    font-size: 1.3em;
+}
+
+#btnCalc:hover{
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+#clean{
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    background-color: lightgrey;
+    font-size: 1em;
+}
+
+#clean:hover{
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.result{
+    max-width: 600px;
+    margin: auto;
+    padding: 0px 20px 20px ;
+    border-radius: 0 0 10px 10px;
+    background-color: var(--background-color-div);
+    outline-color: #808080;
+}
+
+.pResult{
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+}
+
+.redAlert{
+    background-color: #ff000052;
+    color: #ff0000;
+}
+

@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #808080;
+}
+
+div#timer{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+div#timer h1#h1Timer{
+    text-align: center;
+    text-shadow: 1px 0px 1px black;
+}
+
+div#countTimer{
+    padding: 10px;
+    font-size: 60px;
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    text-shadow: 1px 0px 1px black;
+}
+
+div#buttonTimer{
+    text-align: center;
+    padding: 5px;
+}
+
+div#buttonTimer input{
+    width: 90px;
+    cursor: pointer;
+}

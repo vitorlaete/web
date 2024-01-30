@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Merge</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        td{
+            border: 1px solid black;
+            width: 100px;
+            padding: 15px;
+            text-transform: capitalize;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+    <table>
+        <tr><td>a</td><td colspan="2">b</td></tr><!--colspan="2" equivale a dizer que o elemento 'b' ocupará duas colunas-->
+        <tr><td rowspan="3">d</td><td>e</td><td>f</td></tr><!--rowspan="2" equivale a dizer que o elemento 'd' ocupará duas colunas-->
+        <tr><td>h</td><td>i</td></tr>
+        <tr><td>k</td><td>l</td></tr>
+    </table>    
+</body>
+</html>

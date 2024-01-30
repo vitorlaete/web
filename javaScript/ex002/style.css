@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+body{
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    background-color: white;
+    margin: 8px;
+    padding: 30px;
+    width: 500px;
+    height: 400px;
+    border-radius: 8px;
+    margin: auto;
+}
+
+#hour{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#image{
+    display: block;/*transforma um elemento inline em block*/
+    margin: auto;
+    margin-top: 25px;
+}

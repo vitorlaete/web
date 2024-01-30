@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 3</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        caption{
+            background-color: grey;
+            color: white;
+            font-weight: 800;
+            padding: 10px;
+        }
+
+        th{
+            border: 1px solid black;
+        }
+
+        td{
+            border: 1px solid black;
+        }
+
+        .thLine{
+            background-color: grey;
+            color: white;
+        }
+
+        .center{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Challenge 3</h1>
+
+    <table>
+        <!--
+            Há uma tag chamada <colgroup> que permite personalizar colunas, suas tag internas são <col> e cada <col> representa uma coluna. Depois de definir, basta acrescentar uma class e personalizar.
+
+            Mais uma confirguração importante é a propriedade overflow em CSS. Há a possibilidade de usar overflow(transbordar), overflow-y para rolagem vertical e overflow-x para rolagem horizontal. Setando como scroll o elemento irá rolar. No caso de tabelas, podemos incluí-las dentro de uma div.
+        -->
+        <caption>Notas dos alunos</caption>
+
+        <thead class="thLine">
+            <tr><th rowspan="2" scope="rowgroup">Área</th><th rowspan="2" style="width: 150px;" scope="colgroup">Disciplinas</th><th colspan="2" style="width: 150px;" scope="colgroup">Notas</th><th rowspan="2" style="width: 80px;" scope="colgroup">Média</th></tr>
+
+        <tr><th>Nota1</th><th>Nota2</th></tr>
+        </thead>
+
+        <tr><th rowspan="4" scope="rowgroup">Exatas</th><td>Matemática</td><td class="center">0.0</td><td class="center">0.0</td><td class="center">0.0</td></tr>
+
+        <tr><td>Física</td><td class="center">0.0</td><td class="center">0.0</td><td class="center">0.0</td></tr>
+
+        <tr><td>Química</td><td class="center">0.0</td><td class="center">0.0</td><td class="center">0.0</td></tr>
+
+        <tr><td>Biologia</td><td class="center">0.0</td><td class="center">0.0</td><td class="center">0.0</td></tr>
+
+        <tr><th colspan="4" class="thLine" scope="row">Média de Exatas</th><th class="thLine">0.0</th></tr>
+
+        <tr><th rowspan="2" scope="rowgroup">Humanas</th><td>História</td><td class="center">0.0</td><td class="center">0.0</td><td class="center">0.0</td></tr>
+
+        <tr><td>Geografia</td><td class="center">0.0</td><td class="center">0.0</td><td class="center">0.0</td></tr>
+
+        <tr><th colspan="4" class="thLine" scope="row">Média de Humanas</th><th class="thLine">0.0</th></tr>
+    </table>
+</body>
+</html>

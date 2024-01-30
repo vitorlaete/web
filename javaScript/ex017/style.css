@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+body{
+    background-color: rgba(173, 216, 230, 0.692);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px -1px 3px black;
+}
+
+section{
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    box-shadow: 2px 2px 4px black;
+    border-radius: 5px;
+    margin: auto;
+}
+
+footer{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+section >  div {
+    padding: 20px;
+}
+
+#buttonCheck{
+    font-weight: bold;
+    box-shadow: 1px 1px 2px black;
+    margin-top: 10px;
+}
+
+#tabuada{
+    width: 40%;
+    height: 190px;
+}

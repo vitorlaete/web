@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/*Regra que evita erros de acento.*/
+
+h1{
+    text-decoration: underline;
+}
+
+.aRight{
+    text-align: right;
+}

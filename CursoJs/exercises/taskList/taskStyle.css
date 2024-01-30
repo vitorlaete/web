@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #3e4144;
+
+}
+
+div#firstDiv{
+    background-color: #ffffff;
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px #000000;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 3px #808080;
+}
+
+div#secondDiv{
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input#addButton{
+    width: 200px;
+    font-weight: bold;
+    font-size: 15px
+}
+
+ul li{
+    padding: 5px;
+}

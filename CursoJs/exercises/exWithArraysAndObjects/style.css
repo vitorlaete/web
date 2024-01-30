@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body{
+    background-color: lightblue;
+}
+
+h2{
+    text-align: center;
+    background-color: rgba(17, 17, 90, 0.671);
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+#divWithBasicData{
+    background-color: white;
+    padding: 10px;
+    max-width: 700px;
+    border-radius: 7px 7px 0px 0px;
+    box-shadow: 0px 3px 6px black;
+    margin: auto;
+}
+
+#confirm{
+    background-color: white;
+    padding: 10px;
+    max-width: 700px;
+    border-radius: 0px 0px 7px 7px;
+    box-shadow: 0px 3px 6px black;
+    margin: auto;
+
+}
+
+
+label{
+    padding: 5px;
+}
+
+input{
+    margin-top: 10px;
+}
+
+#send{
+    box-shadow: 1px 1px 3px black;
+}
